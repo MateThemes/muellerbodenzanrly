@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Impressum</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.cdnfonts.com/css/satoshi?styles=135009,135005,135007,135002,135000" rel="stylesheet">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>
+</head>
+<body class="antialiased bg-body text-body font-body">
+    <div class="">
+                
+      <section class="pt-6 bg-gray-50 overflow-hidden" x-data="{ mobileNavOpen: false }">
+        <div class="container mx-auto px-4">
+          <div class="mb-6">
+            <div class="flex items-center justify-between px-6 py-3.5 bg-white rounded-full">
+              <div class="w-auto">
+                <div class="flex flex-wrap items-center">
+                  <div class="w-auto">
+                    <a href="index.html">
+                      <img src="images/bodenbelaege-mueller-nobg.svg" alt="" class="h-14">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="w-auto">
+                <div class="flex flex-wrap items-center">
+                  <div class="w-auto hidden lg:block">
+                    <ul class="flex items-center justify-center">
+                      <li class="mr-9"><a class="inline-block text-sm font-bold text-gray-900 hover:text-gray-700" href="#">Leistungen</a></li>
+                      <li class="mr-9"><a class="inline-block text-sm font-bold text-gray-900 hover:text-gray-700" href="#">Produkte</a></li>
+                      <li class="mr-9"><a class="inline-block text-sm font-bold text-gray-900 hover:text-gray-700" href="#">Über uns</a></li>
+                      <li><a class="inline-block text-sm font-bold text-gray-900 hover:text-gray-700" href="#">Galerie</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="w-auto">
+                <div class="flex flex-wrap items-center">
+                  <div class="w-auto hidden lg:block">
+                    <div class="flex flex-wrap -m-2">
+                      
+                      <div class="w-full md:w-auto p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-white font-bold hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full bg-orange-500" href="#">Anfrage stellen</a></div>
+                    </div>
+                  </div>
+                  <div class="w-auto lg:hidden">
+                    <button x-on:click="mobileNavOpen = !mobileNavOpen" class="inline-block">
+                      <svg class="text-blue-500" width="45" height="45" viewbox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="56" height="56" rx="28" fill="currentColor"></rect>
+                        <path d="M37 32H19M37 24H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div :class="{'block': mobileNavOpen, 'hidden': !mobileNavOpen}" class="hidden fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50">
+              <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 bg-gray-800 opacity-80"></div>
+              <nav class="relative z-10 px-9 pt-8 bg-white h-full overflow-y-auto">
+                <div class="flex flex-wrap justify-between h-full">
+                  <div class="w-full">
+                    <div class="flex items-center justify-between -m-2">
+                      <div class="w-auto p-2">
+                        <a class="inline-block" href="#">
+                          <img src="zanrly-assets/logos/zanrly-logo.svg" alt="">
+                        </a>
+                      </div>
+                      <div class="w-auto p-2">
+                        <button x-on:click="mobileNavOpen = !mobileNavOpen" class="inline-block">
+                          <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 18L18 6M6 6L18 18" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col justify-center py-8 w-full">
+                    <ul>
+                      <li class="mb-9"><a class="inline-block text-sm font-bold text-gray-900 hover:text-gray-700" href="#">Features</a></li>
+                      <li class="mb-9"><a class="inline-block text-sm font-bold text-gray-900 hover:text-gray-700" href="#">Solutions</a></li>
+                      <li class="mb-9"><a class="inline-block text-sm font-bold text-gray-900 hover:text-gray-700" href="#">Resources</a></li>
+                      <li><a class="inline-block text-sm font-bold text-gray-900 hover:text-gray-700" href="#">Pricing</a></li>
+                    </ul>
+                  </div>
+                  <div class="flex flex-col justify-end w-full pb-8">
+                    <div class="flex flex-wrap -m-2">
+                      <div class="w-full p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-gray-900 font-bold bg-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-200 border rounded-full" href="#">Log In</a></div>
+                      <div class="w-full p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full" href="#">Get Started</a></div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="px-8 py-20 bg-white overflow-hidden rounded-3xl">
+            <div class="md:max-w-2xl text-center mx-auto">
+              
+              <h1 class="font-heading mb-6 text-5xl text-gray-900 font-black tracking-tight">
+                <span>Impressum</span>
+                
+                
+              </h1>
+              
+              <div class="max-w-lg mx-auto">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                
+      <section class="py-10 bg-gray-50 overflow-hidden">
+        <div class="container mx-auto px-4">
+          <div class="relative py-16 px-8 bg-white overflow-hidden rounded-3xl">
+            <div class="absolute top-0 left-1/2 min-w-max transform -translate-x-1/2">
+              <div class="absolute bg-gradient-radial-white w-full h-full"></div>
+              <img src="zanrly-assets/images/faq/pattern-gray.png" alt="">
+            </div>
+            <div class="relative z-10">
+              <div class="mb-10 md:max-w-xl mx-auto text-center">
+                
+                <h2 class="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">Got questions? We’re here to help!</h2>
+                <p class="text-gray-500 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada tellus vestibulum, commodo pulvinar.</p>
+              </div>
+              <div class="max-w-3xl mx-auto">
+                <div class="flex flex-wrap -m-3 mb-10">
+                  <div class="w-full p-3">
+                    <div x-data="{ accordion: false }" x-on:click="accordion = !accordion" class="block p-10 bg-gray-100 rounded-3xl cursor-pointer">
+                      <div class="flex flex-wrap -m-2">
+                        <div class="flex-1 p-2">
+                          <h3 class="font-heading text-xl text-gray-900 font-black">Do you provide any free plan?</h3>
+                          <div x-ref="container" :style="accordion ? 'height: ' + $refs.container.scrollHeight + 'px' : ''" class="overflow-hidden h-0 duration-500">
+                              <p class="text-gray-500 mt-4 font-bold">Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condi mentum vitae vel purus.</p>
+                          </div>
+                        </div>
+                        <div class="w-auto p-2">
+                          <span class="inline-block transform" :class="{'rotate-180': accordion, 'rotate-0': !accordion }">
+                              <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z" fill="#D1D5DB"></path>
+                              </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full p-3">
+                      <div x-data="{ accordion: false }" x-on:click="accordion = !accordion" class="block p-10 bg-gray-100 rounded-3xl cursor-pointer">
+                          <div class="flex flex-wrap -m-2">
+                            <div class="flex-1 p-2">
+                              <h3 class="font-heading text-xl text-gray-900 font-black">How to claim your 25% discount offer?</h3>
+                              <div x-ref="container" :style="accordion ? 'height: ' + $refs.container.scrollHeight + 'px' : ''" class="overflow-hidden h-0 duration-500">
+                                  <p class="text-gray-500 mt-4 font-bold">Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condi mentum vitae vel purus.</p>
+                              </div>
+                            </div>
+                            <div class="w-auto p-2">
+                              <span class="inline-block transform" :class="{'rotate-180': accordion, 'rotate-0': !accordion }">
+                                  <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z" fill="#D1D5DB"></path>
+                                  </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="w-full p-3">
+                      <div x-data="{ accordion: false }" x-on:click="accordion = !accordion" class="block p-10 bg-gray-100 rounded-3xl cursor-pointer">
+                          <div class="flex flex-wrap -m-2">
+                            <div class="flex-1 p-2">
+                              <h3 class="font-heading text-xl text-gray-900 font-black">What’s your refund policy?</h3>
+                              <div x-ref="container" :style="accordion ? 'height: ' + $refs.container.scrollHeight + 'px' : ''" class="overflow-hidden h-0 duration-500">
+                                  <p class="text-gray-500 mt-4 font-bold">Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condi mentum vitae vel purus.</p>
+                              </div>
+                            </div>
+                            <div class="w-auto p-2">
+                              <span class="inline-block transform" :class="{'rotate-180': accordion, 'rotate-0': !accordion }">
+                                  <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z" fill="#D1D5DB"></path>
+                                  </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="w-full p-3">
+                      <div x-data="{ accordion: false }" x-on:click="accordion = !accordion" class="block p-10 bg-gray-100 rounded-3xl cursor-pointer">
+                          <div class="flex flex-wrap -m-2">
+                            <div class="flex-1 p-2">
+                              <h3 class="font-heading text-xl text-gray-900 font-black">How to get support for the product?</h3>
+                              <div x-ref="container" :style="accordion ? 'height: ' + $refs.container.scrollHeight + 'px' : ''" class="overflow-hidden h-0 duration-500">
+                                  <p class="text-gray-500 mt-4 font-bold">Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condi mentum vitae vel purus.</p>
+                              </div>
+                            </div>
+                            <div class="w-auto p-2">
+                              <span class="inline-block transform" :class="{'rotate-180': accordion, 'rotate-0': !accordion }">
+                                  <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z" fill="#D1D5DB"></path>
+                                  </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                
+      <section class="bg-gray-50 py-10 overflow-hidden">
+        <div class="container mx-auto px-4">
+          <div class="py-16 px-8 mb-8 bg-white rounded-3xl">
+            <div class="max-w-7xl mx-auto">
+              <div class="flex flex-wrap items-center justify-between -m-4">
+                <div class="w-auto p-4">
+                  <a class="inline-block" href="#">
+                    <img src="images/bodenbelaege-mueller-nobg.svg" alt="" class="h-8">
+                  </a>
+                </div>
+                <div class="w-auto p-4">
+                  <ul class="-m-6">
+                    <li class="inline-flex p-6"><a class="inline-block text-gray-500 hover:text-gray-600 font-bold" href="impressum.html">Impressum</a></li>
+                    <li class="inline-flex p-6"><a class="inline-block text-gray-500 hover:text-gray-600 font-bold" href="datenschutz.html">Datenschutz</a></li>
+                    
+                    
+                    
+                  </ul>
+                </div>
+                <div class="w-auto p-4">
+                  <div class="flex flex-wrap -m-4">
+                    <div class="w-auto p-4">
+                      <a class="block" href="#">
+                        <img src="zanrly-assets/images/insta.svg" alt="">
+                      </a>
+                    </div>
+                    <div class="w-auto p-4">
+                      <a class="block" href="#">
+                        <img src="zanrly-assets/images/twitter.svg" alt="">
+                      </a>
+                    </div>
+                    <div class="w-auto p-4">
+                      <a class="block" href="#">
+                        <img src="zanrly-assets/images/footers/fb.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-center font-bold">
+            <span>Ⓒ 2024 - Müller Bodenbeläge. Alle Rechte vorbehalten. Created by</span>
+            <a class="hover:text-blue-600 text-orange-500" href="https://simplewebdesign.at">SimpleWebDesign</a>
+          </p>
+        </div>
+      </section>
+    </div>
+</body>
+</html>
+
